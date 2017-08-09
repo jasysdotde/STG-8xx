@@ -1,0 +1,126 @@
+{
+  "packages": [
+    {
+      "name": "STM32",
+      "maintainer": "BARTH elektronik",
+      "websiteURL": "https://www.barth-elektronik.com/en/Arduino-stg.html",
+      "email": "",
+      "help": {
+        "online": "https://www.barth-elektronik.com/en/arduino-help.html"
+      },
+      "platforms": [
+        {
+          "boards": [
+            {
+              "name": "STG-800"
+            },
+            {
+              "name": "STG-810"
+            },
+            {
+              "name": "STG-820"
+            },
+            {
+              "name": "STG-850"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "STM32",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q1-update"
+            },
+            {
+              "packager": "STM32",
+              "name": "STM32Tools",
+              "version": "2017.7.13"
+            },
+            {
+              "version": "4.5.0",
+              "name": "CMSIS",
+              "packager": "arduino"
+            }
+          ],
+          "name": "BARTH MiniPLC",
+          "architecture": "stm32",
+          "version": "2017.8.4",
+          "category": "Contributed",
+          "url": "http://data.jasys.de/barth/arduiono/BARTH-2017.8.4.tar.bz2",
+          "archiveFileName": "BARTH-2017.8.4.tar.bz2",
+          "checksum": "SHA-256:11b3e696f9d5819e37174ad4ffb31fd4c8b34f81b9848a2ea9de6cd18e623bbf",
+          "size": "21743305"
+        }
+      ],
+      "tools": [
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "6-2017-q1-update",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q1-update-windows.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q1-update-windows.tar.gz",
+              "checksum": "SHA-256:f8b058a319759fa00b5d396cea235ea79a269de298d3b7fc661fab5ae52475d7",
+              "size": "91550932"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q1-update-mac.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q1-update-mac.tar.gz",
+              "checksum": "SHA-256:da7886bcb1023d17af22cef308f59df37297625344de7598e642ed77d3dc438e",
+              "size": "85435005"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q1-update-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q1-update-linux64.tar.gz",
+              "checksum": "SHA-256:0f5df0a90e72b13ebff418ff17dfbb654eaa7d8ea9504ddc1ad05c46707c8ca5",
+              "size": "79681392"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q1-update-linux32.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q1-update-linux32.tar.gz",
+              "checksum": "SHA-256:cda742224f579a06f5209bc3c55dbf51667604308eaff51cde6cfeed4fedc5ae",
+              "size": "78486827"
+            }
+          ]
+        },
+        {
+          "systems": [
+            {
+              "size": "7929231",
+              "checksum": "SHA-256:3cbdc522db8f64eff887d56d70bfefd5ed7db5f5376d8a88879b7c1172a8335b",
+              "archiveFileName": "STM32Tools-2017.7.13.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.7.13.tar.bz2",
+              "host": "i686-linux-gnu"
+            },
+            {
+              "size": "7929231",
+              "checksum": "SHA-256:3cbdc522db8f64eff887d56d70bfefd5ed7db5f5376d8a88879b7c1172a8335b",
+              "archiveFileName": "STM32Tools-2017.7.13.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.7.13.tar.bz2",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "7929231",
+              "checksum": "SHA-256:3cbdc522db8f64eff887d56d70bfefd5ed7db5f5376d8a88879b7c1172a8335b",
+              "archiveFileName": "STM32Tools-2017.7.13.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.7.13.tar.bz2",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "7929231",
+              "checksum": "SHA-256:3cbdc522db8f64eff887d56d70bfefd5ed7db5f5376d8a88879b7c1172a8335b",
+              "archiveFileName": "STM32Tools-2017.7.13.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.7.13.tar.bz2",
+              "host": "i386-apple-darwin11"
+            }
+          ],
+          "version": "2017.7.13",
+          "name": "STM32Tools"
+        }
+      ]
+    }
+  ]
+}
