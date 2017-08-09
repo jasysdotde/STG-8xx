@@ -6,7 +6,7 @@
       "websiteURL": "https://www.barth-elektronik.com/en/Arduino-stg.html",
       "email": "",
       "help": {
-        "online": "https://www.barth-elektronik.com/en/arduino-help.html"
+        "online": "http://barth.jasys.de/arduino-help"
       },
       "platforms": [
         {
@@ -45,7 +45,7 @@
           "architecture": "stm32",
           "version": "2017.8.4",
           "category": "Contributed",
-          "url": "http://data.jasys.de/barth/arduiono/BARTH-2017.8.4.tar.bz2",
+          "url": "https://github.com/jasysdotde/STG-8xx/raw/master/Boards/BARTH-2017.8.4.tar.bz2",
           "archiveFileName": "BARTH-2017.8.4.tar.bz2",
           "checksum": "SHA-256:11b3e696f9d5819e37174ad4ffb31fd4c8b34f81b9848a2ea9de6cd18e623bbf",
           "size": "21743305"
